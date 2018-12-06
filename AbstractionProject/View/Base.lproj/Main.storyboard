@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cfa-bu-y4g">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zma-ED-TIc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,12 +12,12 @@
         <!--BinaryViewController-->
         <scene sceneID="sLk-66-Y29">
             <objects>
-                <viewController title="BinaryViewController" id="3In-En-1JB" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BinaryViewController" title="BinaryViewController" id="3In-En-1JB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ykh-Pv-r32">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeq-on-jId">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeq-on-jId">
                                 <rect key="frame" x="0.0" y="347" width="375" height="320"/>
                                 <string key="text">Binary is more abstract than a logical gate because it uses the idea of the logic gate to build bigger programs. It is less abstract than object code.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -40,15 +40,15 @@
             </objects>
             <point key="canvasLocation" x="2976.8000000000002" y="26.53673163418291"/>
         </scene>
-        <!--View Controller-->
+        <!--Logic Gate-->
         <scene sceneID="Pfb-YA-xig">
             <objects>
-                <viewController id="SaZ-n0-kM3" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogicalGateViewController" title="Logic Gate" id="SaZ-n0-kM3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8sO-gz-rB4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCu-oS-4gu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCu-oS-4gu">
                                 <rect key="frame" x="0.0" y="347" width="375" height="320"/>
                                 <string key="text">The logical gate is more abstract wires with/without electricity because it is used to represent ideas in binary and it is the physical way that the computer can be given information. It is less abstract than binary.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="3637.5999999999999" y="26.53673163418291"/>
         </scene>
-        <!--View Controller-->
+        <!--Byte Code-->
         <scene sceneID="vHi-Ch-akz">
             <objects>
-                <viewController storyboardIdentifier="ByteViewController" id="FFn-bz-3pu" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ByteViewController" title="Byte Code" id="FFn-bz-3pu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2RW-5J-wrT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,7 +82,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="ByteCode" translatesAutoresizingMaskIntoConstraints="NO" id="gsE-lu-gUN">
                                 <rect key="frame" x="0.0" y="20" width="375" height="331"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVE-M9-vQb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVE-M9-vQb">
                                 <rect key="frame" x="0.0" y="347" width="392" height="320"/>
                                 <string key="text">Object code is more abstract than binary because it represents the ideas of the code and binary is the language the computer uses to state if something has an electrical current or it doesn’t. It is less abstract than block code.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -102,15 +102,15 @@
             </objects>
             <point key="canvasLocation" x="2284" y="26.53673163418291"/>
         </scene>
-        <!--BlockViewController-->
+        <!--Block Code-->
         <scene sceneID="Mor-H2-tJ6">
             <objects>
-                <viewController title="BlockViewController" id="SWw-mA-Xu2" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlockViewController" title="Block Code" id="SWw-mA-Xu2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L3q-qm-Ln7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejB-2f-nkc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejB-2f-nkc">
                                 <rect key="frame" x="0.0" y="347" width="375" height="320"/>
                                 <string key="text">Block code is more abstract than object code because it is used to represent ideas of how the program should work. The object code is the used to be an executable file the computer can read that represents the code that the user created. Block code is less abstract than swift</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -138,10 +138,10 @@
             </objects>
             <point key="canvasLocation" x="1544.8" y="26.53673163418291"/>
         </scene>
-        <!--View Controller-->
+        <!--Swift Code-->
         <scene sceneID="I5Q-Tz-dEe">
             <objects>
-                <viewController id="zma-ED-TIc" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SwiftViewController" title="Swift Code" id="zma-ED-TIc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X5J-RK-Hfd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,7 +149,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Swift" translatesAutoresizingMaskIntoConstraints="NO" id="EU1-3E-Lia">
                                 <rect key="frame" x="0.0" y="20" width="375" height="330"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8Z-I3-JR7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8Z-I3-JR7">
                                 <rect key="frame" x="0.0" y="347" width="375" height="320"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="Oda-cR-96E"/>
@@ -175,7 +175,7 @@
         <!--Abstraction View Controller-->
         <scene sceneID="19p-UL-pAW">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Cfa-bu-y4g" customClass="AbstractionViewController" customModule="AbstractionProject" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Cfa-bu-y4g" customClass="AbstractionViewController" customModule="AbstractionProject" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NKx-2C-rdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2284" y="-776"/>
